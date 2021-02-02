@@ -7,8 +7,6 @@ class Solution:
                 return
             if arr[row][col]==-1 or arr[row][col]=="0":
                 return
-            if flag==False and arr[row][col]=="1":
-                flag=True
             
             arr[row][col]=-1
             
