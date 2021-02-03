@@ -26,3 +26,4 @@ class Solution:
                     islands+=1
                     f(grid,i,j,False)
         return islands
+        
