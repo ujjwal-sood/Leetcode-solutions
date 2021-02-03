@@ -14,8 +14,6 @@ class Solution:
             f(arr,row,col-1)
             f(arr,row+1,col)
             f(arr,row,col+1)
-            
-            flag=True
     
         islands=0
         for i in range(m): 
